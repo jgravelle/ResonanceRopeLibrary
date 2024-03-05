@@ -1,7 +1,7 @@
 # ResonanceRopeLibrary
 Improve context length generation in large language models by reducing generalization gaps
 
-This is a simple C++ implementation of the RESONANCE ROPE method described in this paper*:
+This is a simple C++ implementation of the RESONANCE ROPE method described in this paper***:
 
 https://huggingface.co/papers/2403.00071 
 
@@ -26,7 +26,7 @@ and integrating the modified position embeddings into your model architecture.
 
 = = = = = = = = =
 
-Here is a simple 'how to' for extending the context window of your programs based on the paper:
+*** Here is a simple 'how to' for extending the context window of your programs based on the paper:
 
 Identify the type of position embedding your model uses. The paper focuses on models using Rotary Position Embedding (RoPE).
 
